@@ -21,13 +21,6 @@
         android:layout_gravity="center_horizontal"
         android:marginTop="16dp"/>
 
-    <Button
-        android:id="@+id/btnBorrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Borrar"
-        android:layout_gravity="center_horizontal"
-        android:marginTop="8dp"/>
 
     <TextView
         android:id="@+id/txtSaludo"
@@ -37,11 +30,5 @@
         android:textSize="18sp"
         android:layout_marginTop="24dp"/>
 
-    <Button
-        android:id="@+id/btnSegundoActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ir al segundo Activity"
-        android:layout_marginTop="24dp"/>
 
 </LinearLayout>
