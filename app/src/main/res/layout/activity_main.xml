@@ -2,33 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:orientation="vertical"
     android:padding="16dp">
+
 
     <EditText
         android:id="@+id/editNombre"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Escribe tu nombre"
-        android:inputType="textPersonName" />
+        android:layout_height="65dp"
+        android:hint="Introduce tu nombre..." />
+
 
     <Button
         android:id="@+id/btnSaludar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Saludar"
         android:layout_gravity="center_horizontal"
-        android:marginTop="16dp"/>
+        android:text="Saludar" />
 
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Borrar" />
 
     <TextView
         android:id="@+id/txtSaludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Aquí aparecerá el saludo"
-        android:textSize="18sp"
-        android:layout_marginTop="24dp"/>
+        android:textSize="18sp" />
 
 
 </LinearLayout>

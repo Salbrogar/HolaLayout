@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editNombre;
     Button btnSaludar;
     TextView txtSaludo;
+    Button btnBorrar;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,12 +19,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         editNombre = findViewById(R.id.editNombre);
         btnSaludar = findViewById(R.id.btnSaludar);
+        btnBorrar = findViewById(R.id.btnBorrar);
         txtSaludo = findViewById(R.id.txtSaludo);
         btnSaludar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String nombre = editNombre.getText().toString();
                 txtSaludo.setText("Hola, " + nombre);
+            }
+        });
+        btnBorrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                txtSaludo.setText("Hola");
             }
         });
     }
