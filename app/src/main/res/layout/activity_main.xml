@@ -29,6 +29,13 @@
         android:layout_gravity="center_horizontal"
         android:text="Borrar" />
 
+    <Button
+        android:id="@+id/btnSegundoActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Segundo Activity" />
+
     <TextView
         android:id="@+id/txtSaludo"
         android:layout_width="wrap_content"
